@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Photography</title>
+  </head>
+  <body>
+    <div class="">
+      <button class="themeButton">Change Theme</button>
+
+      <div class="container">
+        <h1>New Delhi</h1>
+        <h2>My Hometown</h2>
+        <a href="https://en.wikipedia.org/wiki/New_Delhi" target="_blank">
+          <img
+            src="https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVsaGl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt=""
+            class="image1"
+          />
+        </a>
+        <div class="grid">
+          <img
+            src="https://images.unsplash.com/photo-1595928607828-6fdaee9c0942?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVsaGl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60S"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1597040663342-45b6af3d91a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVsaGl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1592639296346-560c37a0f711?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVsaGl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1592304377960-4ae22286a345?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlbGhpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+        </div>
+        <p>
+          New Delhi is the capital of India and a part of the National Capital
+          Territory of Delhi (NCT). New Delhi is the seat of all three branches
+          of the government of India, hosting the Rashtrapati Bhavan, Parliament
+          House, and the Supreme Court of India. New Delhi is a municipality
+          within the NCT, administrated by the NDMC, which covers mostly
+          Lutyens' Delhi and a few adjacent areas. The municipal area is part of
+          a larger administrative district, the New Delhi district.
+        </p>
+
+        <a href="https://en.wikipedia.org/wiki/New_Delhi" target="_blank">
+          Learn More
+        </a>
+      </div>
+      <footer>
+        Coded by
+        <a
+          href="https://www.linkedin.com/in/amanjyot-singh-74219810a/"
+          target="_blank"
+        >
+          Amanjyot Singh😎</a
+        >
+      </footer>
+    </div>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        body.classList.toggle("dark");
+      }
+
+      let themeButton = document.querySelector(".themeButton");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
